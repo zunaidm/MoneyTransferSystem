@@ -1,0 +1,365 @@
+#login {
+	background: url(img/login-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	margin: 0;
+}
+
+.login-container {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.login-container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+.login-container input[type="text"] {
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: #fff;
+	border: 2px solid #27AE60;
+	padding-left: 20px;
+}
+
+.login-container input[type="password"] {
+		height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: #fff;
+	border: 2px solid #27AE60;
+	padding-left: 20px;
+}
+
+
+.btn-login{
+	padding: 15px 25px;
+	color: #fff;
+	margin-top: 20px;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60;
+}
+
+body {
+	background: #DEF3FA;
+/*	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+*/
+	margin: 0;
+}
+.header {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: #34495E;
+	border-bottom: 3px solid #2d3d51;
+}
+
+.logo {
+	height: 44px;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.desh-menu {
+	position: absolute;
+	height: 92vh;
+	background-color: #34495E;
+	z-index: 2;
+}
+
+.desh-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.desh-menu ul li {
+	padding: 15px;
+	position: relative;
+	width: 150px;
+	background-color: #34495E;
+	border-right: 5px solid #27AE60;
+	border-bottom: 1px solid #BDC3C7;
+}
+.desh-menu ul li:hover{
+	background-color: #2ECC71;
+}
+
+.desh-menu ul ul {
+	transition: all .5s;
+	opacity: 0;
+	position: absolute;
+	visibility: hidden;
+	left: 104%;
+	top: -2%;
+}
+.desh-menu ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.desh-menu ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.desh-menu span{
+	margin-right: 15px;
+}
+
+.username-on-top{
+	position: absolute;
+	right: 80px;
+	top: 14px;
+}
+.header img{
+	top: 4px;
+	right: 30px;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	border-radius: 50%;
+}
+
+/* Main Content on DehsBoard*/
+.desh-main-content {
+margin-left: 185px;
+	margin-top: 0;
+	padding: 0;
+	padding-top: 0px;
+	height: 100%;
+	z-index: 1;
+	/*overflow: scroll;*/
+}
+
+.desh-main-content > .title {
+	background-color: #eef1f7;
+	border-bottom: 1px solid #b8bec9;
+	padding: 10px 20px;
+	margin-top: -20px;
+	font-weight: 700;
+	color: #333;
+	font-size: 18px;
+}
+.main {
+	display: flex;
+	flex-flow: row wrap;
+}
+.widget {
+	flex-basis: 250px;
+	flex-grow: 10;
+	height: 150px;
+	margin: 15px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.sr-money-widget {
+	flex-basis: 500px;
+	flex-grow: 10;
+	height: auto;
+	margin: 15px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.widget .title {
+	background-color: #eef1f7;
+	border-bottom: 1px solid #dfe4ec;
+	padding: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #617085;
+	font-weight: 600;
+}
+.widget .chart {
+	color: green;
+	text-align: center;
+	margin: 20px; 
+	font-size: 50px;
+	font-family: roboto ;
+
+}
+.user-widget .chart{
+color: white;
+margin-left: 30px;
+	font-family: roboto ;
+
+}
+
+.sr-money-widget .title {
+	background-color: #eef1f7;
+	border-bottom: 1px solid #dfe4ec;
+	padding: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #617085;
+	font-weight: 600;
+}
+
+.user-widget {
+	height: 250px;
+	width: 300px;
+	margin: 15px;
+	border-radius: 6px;
+	background-color: #70caff;
+	position: relative;
+	left: 420px;
+}
+.user-widget .title {
+	background-color: #eef1f7;
+	border-bottom: 1px solid #dfe4ec;
+	padding: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #617085;
+	font-weight: 600;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.transection-table {
+	flex-basis: 250px;
+	flex-grow: 10;
+	height: 500px;
+	margin: 15px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	position: relative;
+	overflow: scroll;
+}
+
+.transection-top {
+	color: #617085;
+	margin-top: 10px;
+}
+
+.search-box {
+	text-align: right;
+	margin-right: 25px;
+}
+.search-box input[type="text"]{
+	height: 25px;
+	width: 150px;
+	font-size: 18px;
+	background-color: #fff;
+	border: 2px solid #27AE60;
+	padding-left:5px;
+
+}
+
+.btn-search {
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60;
+	margin-top: 4px;
+}
+
+.reg-container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	margin: 0 auto;
+	margin-top: 20px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.reg-container input[type="text"] , input[type="password"] {
+	height: 25px;
+	width: 300px;
+	font-size: 18px;
+	background-color: #fff;
+	border: 2px solid #27AE60;
+	padding-left:5px;
+	margin-top: 20px;
+}
+
+.reg-container input[type="radio"] , input[type="file"] {
+		margin-top: 20px;
+}
+
+.success{
+	width: 500px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(5,128,4,0.7);
+	margin: 0 auto;
+	margin-right: 331.5px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.error{
+	width: 500px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(128,0,0,0.7);
+	margin: 0 auto;
+	margin-right: 331.5px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+img {
+	width: 40px;
+	height: auto;
+}
+.frmeror{
+	width: 500px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(128,0,0,0.7);
+	margin: 0 auto;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
